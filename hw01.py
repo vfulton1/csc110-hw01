@@ -1,6 +1,5 @@
 # ------------------------------------------------------
-#        Name: (put your name here)
-#       Peers: (add any collaborators)
+#        Name: Vivian Fulton
 #  References: (anything you checked to solve this)
 # ------------------------------------------------------
 
@@ -45,14 +44,40 @@ def main():
     # Part 1: Basic Operations
     # =============================================
     # Your code for part 1 under this line and before the print statements
+    #assigning variables for part 1
+    x = 27
+    y = 1
+    a = 1.5
+    b = 7
+    c = -1
 
+    #arithmetic expression for part 1
+    result1 = (3 * x - 9 * y)/(2 * a * (b - c))
+
+    #printing assigned variables and result for part 1
+    print("Part 1: x =",x)
+    print("Part 1: y =",y)
+    print("Part 1: a =",a)
+    print("Part 1: b =",b)
+    print("Part 1: c =",c)
+    print("Part 1: result =",result1)
     # End of Part 1 ----------------------
 
 
     # Part 2: Power
     # =============================================
     # Your code for part 2 under this line and before the print statements
+    #assigning variables for part 2
+    x = 5
+    y = -3
 
+    #arithmetic expression for part 2
+    result2 = x**2 * y ** 4
+
+    #printing assigned variables and result for part 2
+    print("Part 2: x =",x)
+    print("Part 2: y =",y)
+    print("Part 2: result =",result2)
     # End of Part 2 ----------------------
 
 
@@ -60,14 +85,29 @@ def main():
     # Part 3: Integer divide
     # =============================================
     # Your code for part 3 under this line and before the print statements
+    #assigning variables for part 3
+    a = 100
+    b = 13
 
+    #arithmetic expression for part 3
+    result3 = 100 // 13
+
+    #printing assigned variables and result for part 3
+    print("Part 3: a =",a)
+    print("Part 3: b =",b)
+    print("Part 3: result =",result3)
     # End of Part 3 ----------------------
 
 
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
+    #no variables need to be assigned for part 4
+    #arithmetic expression for part 4
+    result4 = 100 % 13
 
+    #printing result for part 4
+    print("Part 4: result =",result4)
     # End of Part 4 ----------------------
 
 if __name__ == "__main__":
